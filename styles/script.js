@@ -1,32 +1,27 @@
+/**
+ * script.js - Frontend logic for Stock Insight Dashboard
+ * Handles search form behavior and dynamic UI updates.
+ *
+ * ⚠️ Due to academic integrity policies, most of the source code
+ * has been removed. If you're interested in the full implementation,
+ * feel free to contact me directly (excluding currently enrolled students).
+ */
+
 document.addEventListener('DOMContentLoaded', function() {
-    const searchForm = document.getElementById('searchForm');
-    const searchResults = document.getElementById('searchResults');
-
-    searchForm.addEventListener('submit', function(event) {
-        event.preventDefault();
-
-        const formData = new FormData(searchForm);
-        const query = formData.get('name');
-
-        fetch('/search', {
-            method: 'POST',
-            body: formData
-        })
-        .then(response => response.text())
-        .then(data => {
-            searchResults.innerHTML = `<p>${data}</p>`;
-        })
-        .catch(error => console.error('Error:', error));
-    });
+  const searchForm = document.getElementById('searchForm');
+  
+  // ⚠️ Implementation hidden to prevent academic misconduct.
+  // Handles async fetch and rendering based on API response.
 });
 
 const searchInput = document.getElementById('name');
 
 function search() {
-  const query = searchInput.value;
-  if (query.trim() == '') {
-    alert('Please enter a city.');
-    return;
-  }
-  // execute search functionality
+const query = searchInput.value;
+if (query.trim() === '') {
+  alert('Please enter a stock ticker symbol.');
+  return;
+}
+
+// ⚠️ Search functionality implementation hidden
 }

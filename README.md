@@ -32,7 +32,7 @@ A Flask-based web application for exploring real-time stock information. This da
 
 | Search Form & Results | Chart Visualization |
 |-----------------------|---------------------|
-| ![Search UI](img/figures/search_demo.png) | ![Chart](img/figures/chart_demo.png) |
+| ![Search UI](img/figure/homepage.png) | ![Chart](img/figure/searching.png) |
 
 ---
 
